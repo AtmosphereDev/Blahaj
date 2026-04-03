@@ -1,0 +1,14 @@
+{
+	"item.blahaj.blue_shark": "Мягкая Игрушка Акулы",
+	"item.blahaj.blue_shark.tooltip": "a.k.a. Блохэй",
+	"item.blahaj.gray_shark": "Серая Игрушка Акулы",
+	"item.blahaj.gray_shark.tooltip": "a.k.a. Клаппар Хэй",
+	"item.blahaj.blue_whale": "Мягкая Игрушка Синего Кита",
+	"item.blahaj.blue_whale.tooltip": "a.k.a. Бловингад. Содержит в себе предметы",
+	"item.blahaj.brown_bear": "Мягкая Игрушка Коричневого Медведя",
+	"item.blahaj.brown_bear.tooltip": "a.k.a. Джунгельског",
+	"item.blahaj.bread": "Хлебная подушка",
+	"tooltip.blahaj.owner.craft": "Создано %s",
+	"tooltip.blahaj.owner.rename": "%s на %s",
+	"modmenu.blahaj.users_manual": "User's Manual and Technical Reference"
+}
