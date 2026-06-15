@@ -6,7 +6,14 @@ plugins {
 version = file('../version.txt').text.trim()
 
 base {
-	archivesName = "blahaj-fabric-${project.minecraft_version}"
+	archivesName = "blahaj-fabric-1.21.11"
+}
+
+repositories {
+	maven {
+		name = 'PolymerMC'
+		url = 'https://maven.nucleoid.xyz/'
+	}
 }
 
 dependencies {
@@ -14,6 +21,7 @@ dependencies {
     mappings loom.officialMojangMappings()
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+	modImplementation include("eu.pb4:polymer-core:${project.polymer_version}")
 }
 
 processResources {
